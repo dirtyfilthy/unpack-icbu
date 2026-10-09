@@ -1,0 +1,25 @@
+# Real calendar data never goes in this repo. Test fixtures must be synthetic
+# and live under tests/fixtures/.
+*.icbu
+*.icbu/
+*.ics
+!tests/fixtures/**/*.ics
+*.sqlite
+*.sqlite-*
+*.sqlitedb
+*.sqlitedb-*
+!tests/fixtures/**/*.sqlitedb
+Calendar Cache*
+out/
+local/
+ics/
+*.icbu.zip
+build/
+dist/
+*.egg-info/
+
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+CLAUDE.local.md
